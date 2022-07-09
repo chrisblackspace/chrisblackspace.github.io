@@ -87,10 +87,10 @@ input, select, textarea {
 
 	body {
 		font-size: 13.5pt;
-		font-family: sans-serif;
+		font-family: serif;
 		background-color: #e3e9dc;
 		font-family: 'Ubuntu Condensed', sans-serif;
-		color: #878e83;
+		color: #1A2021;
 		letter-spacing: -1px;
 	}
 
@@ -133,7 +133,7 @@ input, select, textarea {
 	}
 
 	strong {
-		color: #474e43;
+		color: #090908;
 	}
 
 	img.left {
@@ -1450,7 +1450,7 @@ input, select, textarea {
 		}
 
 		article.blog-post .blog-post-image {
-			width: 100%;
+			width: 30%;
 		}
 
 	ul.small-image-list li {
@@ -1490,7 +1490,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, #008dad, #007b9d);
 		display: inline-block;
 		padding: 15px 25px 15px 25px;
-		background-color: #007b9d;
+		background-color: #090908;
 		border-radius: 10px;
 		text-transform: lowercase;
 		text-decoration: none;
@@ -1592,25 +1592,11 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner-wrapper {
-		background: #c8d2bc url(images/bg1.png);
-		padding: 2em 0;
-	}
 
-	#banner {
-		position: relative;
-		width: 100%;
-		padding: 6em 0;
-		border-radius: 10px;
-		background-image: url(images/banner.jpg);
-		background-size: cover;
-		text-align: center;
-		box-shadow: inset 0 0 0 20px #fff;
-	}
 
 		#banner h2 {
 			font-size: 3.3em;
-			color: #fff;
+			color: #20231E;
 			text-align: center;
 			letter-spacing: -2px;
 			margin: 0;
@@ -1621,7 +1607,7 @@ input, select, textarea {
 			left: 0;
 			margin: 0.5em 0 0 0;
 			font-size: 1.6em;
-			color: #fff;
+			color: #20231E;
 			letter-spacing: -1px;
 			text-transform: lowercase;
 			opacity: 0.8;
@@ -1630,7 +1616,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background: #fff;
+		background: #D4F3F7;
 		padding: 4em 0;
 	}
 
@@ -1642,17 +1628,6 @@ input, select, textarea {
 
 /* Copyright */
 
-	#copyright {
-		text-align: center;
-		color: #A6A88F;
-		border-top: solid 1px #ced0b7;
-		padding: 3em 0 0 0;
-		margin: 3em 0 0 0;
-	}
-
-		#copyright a {
-			color: #A6A88F;
-		}
 
 /* Large */
 
@@ -1661,7 +1636,7 @@ input, select, textarea {
 		/* Reusable */
 
 			ul.small-image-list img {
-				width: 50px;
+				width: 90px;
 			}
 
 			ul.big-image-list img {
@@ -1692,7 +1667,7 @@ input, select, textarea {
 
 			#banner {
 				width: 100%;
-				padding: 5em 0;
+				padding: 0em 0;
 			}
 
 				#banner h2 {
@@ -1741,10 +1716,10 @@ input, select, textarea {
 		/* Header */
 
 			#header-wrapper {
-				background-image: -moz-linear-gradient(top, #008dab, #007294);
-				background-image: -webkit-linear-gradient(top, #008dab, #007294);
-				background-image: -ms-linear-gradient(top, #008dab, #007294);
-				background-image: linear-gradient(top, #008dab, #007294);
+				background-image: -moz-linear-gradient(top, #D4F3F7, #007294);
+				background-image: -webkit-linear-gradient(top, #D4F3F7, #007294);
+				background-image: -ms-linear-gradient(top, #D4F3F7, #007294);
+				background-image: linear-gradient(top, #D4F3F7, #007294);
 				background-color: #007294;
 			}
 
@@ -1953,7 +1928,7 @@ input, select, textarea {
 			}
 
 			.button {
-				font-size: 1em;
+				font-size: 0.5em;
 			}
 
 			.blog-post-image {
@@ -1963,7 +1938,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner-wrapper {
-				background: #c8d2bc url(images/bg1.png);
+				background: #D4F3F7 url(images/pic8.jpg);
 				padding: 20px 0;
 			}
 
@@ -1998,16 +1973,6 @@ input, select, textarea {
 
 		/* Copyright */
 
-			#copyright {
-				text-align: center;
-				color: #A6A88F;
-				padding: 30px 0 0 0;
-				font-size: 0.8em;
-				line-height: 1.5em;
-			}
 
-				#copyright a {
-					color: #A6A88F;
-				}
 
 	}
